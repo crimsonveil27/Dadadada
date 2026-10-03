@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Boyfriend's Day Daddy 🤍</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Caveat:wght@500&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --lav:#d9cdf5; --pink:#fbd3e4; --ink:#4a3b66; --soft:#7a6a99; --card:rgba(255,255,255,.78); --accent:#e7799f;
+  }
+  *{box-sizing:border-box;margin:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Nunito',sans-serif; color:var(--ink); line-height:1.7;
+    background:linear-gradient(160deg,var(--lav),var(--pink)); background-attachment:fixed; min-height:100vh;
+  }
+  main{max-width:640px;margin:0 auto;padding:0 20px 80px}
+  .hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:14px}
+  .hero h1{font-family:'Playfair Display',serif;font-weight:500;font-size:clamp(2.4rem,9vw,4rem);line-height:1.15}
+  .hero p{font-family:'Caveat',cursive;font-size:1.6rem;color:var(--soft)}
+  .stars{font-size:1.4rem;letter-spacing:.5em;animation:twinkle 3s ease-in-out infinite}
+  @keyframes twinkle{50%{opacity:.4}}
+  .card{background:var(--card);border-radius:28px;padding:28px 26px;margin:22px 0;backdrop-filter:blur(6px);box-shadow:0 10px 30px rgba(120,90,160,.15)}
+  h2{font-family:'Playfair Display',serif;font-weight:500;font-size:1.6rem;margin-bottom:10px}
+  .note{font-family:'Caveat',cursive;font-size:1.4rem;color:var(--accent);margin-top:8px}
+  ul{padding-left:0;list-style:none}
+  li{padding:6px 0}
+  li::before{content:"♡ ";color:var(--accent)}
+  iframe{width:100%;border:0;border-radius:16px;margin-top:10px}
+  .btn{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:999px;border:0;background:var(--accent);color:#fff;font:600 1rem 'Nunito',sans-serif;cursor:pointer;text-decoration:none;transition:transform .2s}
+  .btn:hover{transform:scale(1.05)}
+  .center{text-align:center}
+  .poem{white-space:pre-line;font-family:'Caveat',cursive;font-size:1.55rem;line-height:1.55;color:var(--ink)}
+  .choices{display:flex;gap:16px;justify-content:center;align-items:center;margin-top:8px}
+  .btn.no{background:#a79bc4}
+  .btn.yes{animation:glow 1.6s ease-in-out infinite}
+  @keyframes glow{50%{box-shadow:0 0 0 12px rgba(231,121,159,.25),0 0 30px rgba(231,121,159,.6);transform:scale(1.08)}}
+  .drama{font-size:1.9rem}
+  .pulse{animation:beat 1.2s ease-in-out infinite}
+  @keyframes beat{50%{transform:scale(1.2)}}
+  .shake{animation:shake .5s ease 2,sway 2s ease-in-out 1s infinite}
+  @keyframes shake{25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+  #dim{position:fixed;inset:0;background:rgba(25,20,45,.4);opacity:0;pointer-events:none;transition:opacity 1.2s ease;z-index:40}
+  #dim.on{opacity:1}
+  .fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}
+  .fx span{position:absolute;top:-10%;animation:fall linear forwards}
+  @keyframes fall{to{transform:translateY(115vh) rotate(360deg)}}
+  .reply.on .big{font-size:3.4rem}
+  #sad.on{color:var(--ink);position:relative;z-index:60}
+  #sad.on p{min-height:5em}
+  .reply{display:none;margin-top:10px;font-family:'Caveat',cursive;font-size:1.7rem}
+  .reply.on{display:block;animation:pop .6s ease}
+  .reply .big{font-size:3rem;animation:sway 2s ease-in-out infinite}
+  #sad{color:var(--soft)}
+  @keyframes pop{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:none}}
+  @keyframes sway{50%{transform:translateY(6px)}}
+  footer{text-align:center;font-family:'Caveat',cursive;font-size:1.3rem;color:var(--soft);margin-top:40px}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+  .js .card{opacity:0;transform:translateY(40px) scale(.96);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.9,.3,1.2)}
+  .js .card.show{opacity:1;transform:none}
+  .js .card li{opacity:0;transform:translateX(-14px);transition:opacity .5s ease,transform .5s ease}
+  .js .card.show li{opacity:1;transform:none}
+  .js .card.show li:nth-child(2){transition-delay:.25s}
+  .js .card.show li:nth-child(3){transition-delay:.5s}
+  .js .card.show li:nth-child(4){transition-delay:.75s}
+  @media (prefers-reduced-motion:reduce){.stars{animation:none}html{scroll-behavior:auto}.js .card,.js .card li{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<main>
+
+  <section class="hero">
+    <div class="stars" aria-hidden="true">✦ ✧ ✦</div>
+    <h1>Happy Boyfriend's Day Daddy 🤍</h1>
+    <p>it's been a whole year since we found each other</p>
+  </section>
+
+  <section class="card">
+    <h2>Where it started 🌸</h2>
+    <p>On the 17th of September we met on Genshin, and somehow that turned into this. Out of all the people in all the servers, it was you.</p>
+  </section>
+
+  <section class="card">
+    <h2>Our playlist 🎧</h2>
+    <p>what i feel for you, compiled in a bunch of songs &lt;3</p>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rdp3nrN9oYteRLBIw07mT?utm_source=generator&theme=0&si=2cf74946f4bf4230" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Our second playlist"></iframe>
+  </section>
+
+  <section class="card">
+    <h2>A year of us</h2>
+    <p>We've been through a lot this year, the good, the messy, and everything in between. And I'm still here, still thinking of you.</p>
+  </section>
+
+  <section class="card center">
+    <h2>A little poem 🌙</h2>
+    <p class="poem">I don't believe in fate
+not like how the poets say
+all whimsical and fancy
+But I believe it is fate that led you to me
+otherwise how could life have ordained for us
+to meet on that fateful day?
+How can the feelings you ignite in me
+Be of this life alone?
+
+No, for I am sure we had met in the past
+And you had worked your magic on me then too
+And turned me from a sensible girl to one
+who'd fall in love with you again
+for lifetimes to come</p>
+  </section>
+
+  <section class="card">
+    <h2>When we finally meet ✨</h2>
+    <ul>
+      <li>hold hands</li>
+      <li>roam around in a mall</li>
+      <li>have yummyyy food</li>
+      <li>hug you the hardest</li>
+    </ul>
+  </section>
+
+  <section class="card center">
+    <div id="ask">
+      <div class="big pulse">💌</div>
+      <h2 class="drama">Do you want to see a surprise?</h2>
+      <p class="note">choose wisely... 👀</p>
+      <div class="choices">
+        <button class="btn yes" id="yes">Yes 💞</button>
+        <button class="btn no" id="no">No</button>
+      </div>
+    </div>
+    <div id="sad" class="reply">
+      <div class="big shake">💔</div>
+      <p id="sadtext"></p>
+      <button class="btn" id="retry">wait, I changed my mind 🥺</button>
+    </div>
+    <div id="secret" class="reply">
+      <div class="big">🥹💞</div>
+      <p>Thank you for the memories this year. Happy Boyfriend's Day. 🤍</p>
+      <p class="note">- Aru</p>
+    </div>
+  </section>
+
+  <footer>made with love by Aru</footer>
+</main>
+
+<script>
+  document.documentElement.classList.add('js');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.2});
+  document.querySelectorAll('.card').forEach(function(c){ io.observe(c); });
+
+  var $ = function(id){ return document.getElementById(id); };
+  var yesScale = 1, typer;
+  var fx = document.createElement('div'); fx.className='fx'; document.body.appendChild(fx);
+  var dim = document.createElement('div'); dim.id='dim'; document.body.appendChild(dim);
+
+  function rain(emojis, count, min, max){
+    for(var i=0;i<count;i++){
+      var s = document.createElement('span');
+      s.textContent = emojis[Math.floor(Math.random()*emojis.length)];
+      s.style.left = Math.random()*100+'%';
+      s.style.fontSize = (16+Math.random()*22)+'px';
+      s.style.animationDuration = (min+Math.random()*(max-min))+'s';
+      s.style.animationDelay = (Math.random()*1.5)+'s';
+      fx.appendChild(s);
+      setTimeout(function(el){ el.remove(); }, (max+2)*1000, s);
+    }
+  }
+  function typeOut(el, text){
+    clearInterval(typer); el.textContent=''; var i=0;
+    typer = setInterval(function(){
+      el.textContent += text[i++];
+      if(i>=text.length) clearInterval(typer);
+    }, 55);
+  }
+
+  $('yes').addEventListener('click', function(){
+    $('ask').style.display='none';
+    $('sad').classList.remove('on');
+    dim.classList.remove('on');
+    $('secret').classList.add('on');
+    rain(['💖','💗','✨','💌','🌸','🤍'], 60, 3, 6);
+  });
+  $('no').addEventListener('click', function(){
+    $('ask').style.display='none';
+    $('sad').classList.add('on');
+    dim.classList.add('on');
+    rain(['💧','😢','💔'], 35, 3, 6);
+    typeOut($('sadtext'), "Oh... okay. I made this for you with so much love, but it's fine. I'll just sit here quietly...");
+  });
+  $('retry').addEventListener('click', function(){
+    clearInterval(typer);
+    $('sad').classList.remove('on');
+    dim.classList.remove('on');
+    yesScale += 0.35;
+    $('yes').style.fontSize = (1*yesScale)+'rem';
+    $('no').style.fontSize = Math.max(.6, 1/yesScale)+'rem';
+    $('ask').style.display='block';
+  });
+</script>
+</body>
+</html>
